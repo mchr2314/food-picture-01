@@ -27,7 +27,7 @@ const EXPECTED_ASSET_NAME = "dish.jpg";
 const EXPECTED_WIDTH = 1024;
 const EXPECTED_HEIGHT = 1024;
 const MAX_BYTES = 1048576;
-const EXPECTED_SHA256 = "6aa255ef5e8f46e52a090104d074e0f112b7773a2492428ffff979693ff125bf";
+const EXPECTED_SHA256 = "c43a7fd96eff790a443ece9487236a9f26a83bcc7ed1f75d964cae814d5a0cde";
 
 function parseJpegDimensions(buf: Buffer): { width: number; height: number } {
   if (buf.length < 4 || buf[0] !== 0xff || buf[1] !== 0xd8) {
